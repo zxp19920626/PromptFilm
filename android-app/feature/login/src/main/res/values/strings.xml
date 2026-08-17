@@ -1,6 +1,0 @@
-<resources>
-    <string name="login_title">Sign in</string>
-    <string name="login_description">The login module is ready for provider integration.</string>
-    <string name="open_payment">Open payment module</string>
-</resources>
-

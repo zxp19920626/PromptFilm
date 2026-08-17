@@ -1,29 +1,16 @@
-# PromptFilm 基础架构
+# PromptFilm 项目结构
 
 ## 仓库边界
 
-后端与 Android 客户端放在同一仓库中，但分别维护独立构建入口。当前阶段只搭建基础能力、登录模块占位页和支付模块占位页，不实现真实登录、支付、业务数据库表或生产部署。
+后端、Android 与 iOS 客户端放在同一仓库中，并分别维护独立构建入口。当前客户端仅保留可运行的空项目，不实现登录、支付、网络层或业务模块。
 
-## Android 依赖方向
+## Android
 
-Android 使用 Kotlin、XML 布局、OkHttp3、Glide 与 ARouter。模块依赖只能沿以下方向流动：
+Android 当前仅包含 `app` 模块、一个启动 Activity 和一张 XML 占位页面。首个真实业务进入开发前，再根据已经确认的业务边界补充分层和依赖。
 
-```text
-app
- ├─ feature:login   ─┐
- └─ feature:payment ─┼─> core:router -> core:common
-                     ├─> core:network -> core:common
-                     └─> core:ui -> core:common
-```
+## iOS
 
-- `app` 只负责应用初始化、模块装配和首页入口。
-- `feature:*` 之间禁止建立 Gradle 依赖，也禁止直接引用对方的 Activity 或实现类。
-- 跨业务模块跳转统一使用 `core:router` 暴露的路由地址和导航入口。
-- `core:network` 集中创建 OkHttpClient，业务模块不得各自维护网络客户端。
-- `core:ui` 集中维护主题、基础 Activity、通用状态视图和 Glide 图片加载扩展。
-- 后续新增业务使用新的 `feature:<name>` 模块，不复制基础能力。
-
-ARouter `1.5.2` 仍依赖 KAPT 与旧 support 元数据，因此当前 AGP 9 构建显式启用旧 Kotlin DSL 和 Jetifier 兼容开关。该约束集中记录在 `android-app/gradle.properties`；后续替换路由实现或升级到支持 KSP/AndroidX 的版本时，应同步移除这些兼容开关并回归全部路由。
+iOS 当前使用 SwiftUI，仅包含应用入口、一个占位页面和基础资源目录。工程使用 Xcode 自动生成 Info.plist，不包含签名团队、第三方 SDK 或生产配置。
 
 ## 后端技术栈
 

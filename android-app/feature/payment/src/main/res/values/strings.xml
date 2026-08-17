@@ -1,5 +1,0 @@
-<resources>
-    <string name="payment_title">Payment</string>
-    <string name="payment_description">The payment module is isolated and ready for provider adapters.</string>
-</resources>
-

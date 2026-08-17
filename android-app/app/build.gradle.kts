@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
 }
 
 android {
@@ -19,12 +18,4 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-}
-
-dependencies {
-    implementation(project(":core:router"))
-    implementation(project(":core:ui"))
-    implementation(project(":feature:login"))
-    implementation(project(":feature:payment"))
-    implementation(libs.androidx.activity.ktx)
 }

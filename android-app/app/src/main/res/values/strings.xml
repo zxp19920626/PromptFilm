@@ -1,8 +1,4 @@
 <resources>
     <string name="app_name">PromptFilm</string>
-    <string name="app_logo_description">PromptFilm logo</string>
-    <string name="framework_ready">The modular Android foundation is ready.</string>
-    <string name="open_login">Open login module</string>
-    <string name="open_payment">Open payment module</string>
+    <string name="empty_project_message">PromptFilm Android</string>
 </resources>
-

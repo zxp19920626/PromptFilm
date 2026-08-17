@@ -23,10 +23,3 @@ dependencyResolutionManagement {
 rootProject.name = "PromptFilmAndroid"
 
 include(":app")
-include(":core:common")
-include(":core:network")
-include(":core:router")
-include(":core:ui")
-include(":feature:login")
-include(":feature:payment")
-
