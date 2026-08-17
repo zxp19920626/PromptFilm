@@ -1,0 +1,7 @@
+<resources>
+    <color name="pf_primary">#6750A4</color>
+    <color name="pf_on_primary">#FFFFFF</color>
+    <color name="pf_background">#FFF7FF</color>
+    <color name="pf_on_background">#1D1B20</color>
+</resources>
+
