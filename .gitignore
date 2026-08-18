@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Android / Gradle
+android/.gradle/
+android/**/build/
+android/local.properties
+*.jks
+*.keystore
+
+# Xcode
+ios/DerivedData/
+ios/build/
+*.xcuserstate
+xcuserdata/
+
