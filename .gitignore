@@ -1,16 +1,20 @@
-# macOS
 .DS_Store
-
-# Android / Gradle
-android/.gradle/
-android/**/build/
-android/local.properties
+.idea/
+*.iml
+.gradle/
+**/build/
+**/target/
+local.properties
 *.jks
 *.keystore
+keystore.properties
 
 # Xcode
-ios/DerivedData/
-ios/build/
+DerivedData/
 *.xcuserstate
 xcuserdata/
 
+# Local environment files
+.env
+.env.*
+!.env.example

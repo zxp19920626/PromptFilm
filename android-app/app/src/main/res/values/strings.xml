@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PromptFilm</string>
+    <string name="empty_project_message">PromptFilm Android</string>
+</resources>
