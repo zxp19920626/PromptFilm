@@ -1,4 +1,71 @@
 <resources>
     <string name="app_name">PromptFilm</string>
-    <string name="empty_project_message">PromptFilm Android</string>
+    <string name="demo_title">Wan2.7 链路演示</string>
+    <string name="demo_subtitle">Android → 本地后端 → 阿里云百炼 → 视频结果</string>
+    <string name="backend_url_label">本地后端地址</string>
+    <string name="default_backend_url">http://10.0.2.2:18080</string>
+    <string name="generation_mode_label">生成能力（全部使用 Wan2.7）</string>
+    <string name="mode_text">文生视频</string>
+    <string name="mode_image">图生视频</string>
+    <string name="mode_reference">参考生视频</string>
+    <string name="image_upload_single_label">首帧图片（必须选择 1 张）</string>
+    <string name="image_upload_reference_label">参考图片（支持选择 1–5 张）</string>
+    <string name="select_images">选择图片</string>
+    <string name="no_image_selected">尚未选择图片</string>
+    <string name="selected_images_count">已选择 %1$d 张：%2$s</string>
+    <string name="prompt_label">视频提示词</string>
+    <string name="default_prompt">一位演员站在演唱会舞台中央，在暖色追光下自然回头看向镜头，真实摄影质感</string>
+    <string name="parameters_label">生成参数</string>
+    <string name="resolution_label">清晰度</string>
+    <string name="ratio_label">宽高比</string>
+    <string name="duration_label">视频时长</string>
+    <string name="prompt_extend_label">智能改写</string>
+    <string name="watermark_label">添加水印</string>
+    <string name="option_enabled">开启</string>
+    <string name="option_disabled">关闭</string>
+    <string name="selected_parameters">当前参数：%1$s · %2$s · %3$d 秒 · 智能改写%4$s · 水印%5$s</string>
+    <string name="selected_image_parameters">当前参数：%1$s · 比例跟随首帧 · %2$d 秒 · 智能改写%3$s · 水印%4$s</string>
+    <string-array name="resolution_options">
+        <item>720P</item>
+        <item>1080P</item>
+    </string-array>
+    <string-array name="ratio_options">
+        <item>9:16</item>
+        <item>16:9</item>
+        <item>1:1</item>
+        <item>4:3</item>
+        <item>3:4</item>
+    </string-array>
+    <string-array name="duration_options">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string name="start_generation">创建视频任务</string>
+    <string name="status_ready">等待创建任务</string>
+    <string name="status_creating">正在创建 Wan2.7 任务…</string>
+    <string name="status_created">任务已创建：%1$s</string>
+    <string name="status_resuming">继续查询任务：%1$s</string>
+    <string name="status_polling">任务状态：%1$s\n任务 ID：%2$s</string>
+    <string name="status_succeeded">生成成功，正在加载视频。\n任务 ID：%1$s</string>
+    <string name="status_playing">视频播放中（循环）\n任务 ID：%1$s</string>
+    <string name="status_playback_failed">视频播放失败。\n任务 ID：%1$s\n播放器错误：%2$s/%3$s</string>
+    <string name="status_failed">生成失败：%1$s</string>
+    <string name="error_backend_url">请输入以 http:// 或 https:// 开头的后端地址</string>
+    <string name="error_prompt">请输入视频提示词</string>
+    <string name="error_single_image">图生视频必须选择 1 张首帧图片</string>
+    <string name="error_reference_images">参考生视频必须选择 1–5 张参考图片</string>
+    <string name="error_image_read">读取图片失败：%1$s</string>
+    <string name="error_timeout">查询超时，请稍后使用任务 ID 继续查询：%1$s</string>
 </resources>

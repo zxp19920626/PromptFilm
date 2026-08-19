@@ -27,6 +27,19 @@ public final class ApiEnvelope<T> {
         return new ApiEnvelope<>("OK", "Success", data);
     }
 
+    /**
+     * 创建失败响应。
+     *
+     * @param code 稳定的机器可读错误码，供客户端分支处理
+     * @param message 可直接展示的英文兜底文案
+     * @param data 与错误相关的结构化数据，可按接口合同为空
+     * @param <T> 错误数据类型
+     * @return 包含指定错误码、文案和错误数据的统一响应
+     */
+    public static <T> ApiEnvelope<T> failure(String code, String message, T data) {
+        return new ApiEnvelope<>(code, message, data);
+    }
+
     /** @return 稳定的机器可读业务码，成功时为 OK */
     public String getCode() {
         return code;
@@ -42,4 +55,3 @@ public final class ApiEnvelope<T> {
         return data;
     }
 }
-

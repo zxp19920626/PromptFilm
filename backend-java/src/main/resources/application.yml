@@ -47,4 +47,10 @@ springdoc:
 app:
   environment: ${APP_ENV:local}
   jwt-secret: ${JWT_SECRET}
-
+  wan:
+    base-url: ${WAN_BASE_URL:}
+    api-key: ${DASHSCOPE_API_KEY:}
+    text-model: ${WAN_TEXT_MODEL:wan2.7-t2v-2026-06-12}
+    image-model: ${WAN_IMAGE_MODEL:wan2.7-i2v-2026-04-25}
+    reference-model: ${WAN_REFERENCE_MODEL:wan2.7-r2v-2026-06-12}
+    data-inspection: ${WAN_DATA_INSPECTION:}
