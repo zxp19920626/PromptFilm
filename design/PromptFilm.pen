@@ -10644,7 +10644,8 @@
                   "width": "fill_container",
                   "content": "页面必须实例化标准组件；状态、媒体、槽位、发布、任务和积分使用同一组件族，不在业务页重复绘制。",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -10777,7 +10778,8 @@
                                   "fill": "#9CA1B0",
                                   "content": "输入 · 正面清晰人像",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -10845,7 +10847,8 @@
                                   "fill": "#9CA1B0",
                                   "content": "代表帧 · 左侧人物",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -10860,7 +10863,8 @@
                           "width": "fill_container",
                           "content": "创建任务时固化映射快照；模板修改不影响历史任务。",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -11001,7 +11005,8 @@
                                   "fill": "#9CA1B0",
                                   "content": "封面、循环视频、效果片、生产源视频",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -11054,7 +11059,8 @@
                               "fill": "#9CA1B0",
                               "content": "人物槽位与映射 · 双人模式已配置 A / B 槽位",
                               "fontFamily": "Inter",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -11105,7 +11111,8 @@
                               "fill": "#9CA1B0",
                               "content": "真实测试生成 · 尚未完成运营人工确认",
                               "fontFamily": "Inter",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -11156,7 +11163,8 @@
                               "fill": "#9CA1B0",
                               "content": "工作流发布状态 · 绑定版本已停用，阻止发布",
                               "fontFamily": "Inter",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -52391,7 +52399,8 @@
                                       "fill": "#8A6CFF",
                                       "content": "全部字段可编辑",
                                       "fontFamily": "Inter",
-                                      "fontSize": 10
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -52430,7 +52439,8 @@
                                           "fill": "#969AAA",
                                           "content": "模板名称（客户端展示）",
                                           "fontFamily": "Inter",
-                                          "fontSize": 10
+                                          "fontSize": 10,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -52438,7 +52448,8 @@
                                           "fill": "#F07A9B",
                                           "content": "必填",
                                           "fontFamily": "Inter",
-                                          "fontSize": 9
+                                          "fontSize": 9,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -52480,7 +52491,8 @@
                                           "fill": "#969AAA",
                                           "content": "模板描述",
                                           "fontFamily": "Inter",
-                                          "fontSize": 10
+                                          "fontSize": 10,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -52488,7 +52500,8 @@
                                           "fill": "#8A6CFF",
                                           "content": "编辑",
                                           "fontFamily": "Inter",
-                                          "fontSize": 9
+                                          "fontSize": 9,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -52500,7 +52513,8 @@
                                       "width": "fill_container",
                                       "content": "上传两张清晰正脸照片，将两位用户分别替换到固定电影场景人物中。",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -52539,7 +52553,8 @@
                                           "fill": "#969AAA",
                                           "content": "画面比例",
                                           "fontFamily": "Inter",
-                                          "fontSize": 10
+                                          "fontSize": 10,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -52547,7 +52562,8 @@
                                           "fill": "#F07A9B",
                                           "content": "必填",
                                           "fontFamily": "Inter",
-                                          "fontSize": 9
+                                          "fontSize": 9,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -52587,7 +52603,8 @@
                                           "fill": "#969AAA",
                                           "content": "视频时长",
                                           "fontFamily": "Inter",
-                                          "fontSize": 10
+                                          "fontSize": 10,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -52595,7 +52612,8 @@
                                           "fill": "#F07A9B",
                                           "content": "必填",
                                           "fontFamily": "Inter",
-                                          "fontSize": 9
+                                          "fontSize": 9,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -52635,7 +52653,8 @@
                                           "fill": "#969AAA",
                                           "content": "生成模型",
                                           "fontFamily": "Inter",
-                                          "fontSize": 10
+                                          "fontSize": 10,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -52643,7 +52662,8 @@
                                           "fill": "#F07A9B",
                                           "content": "必填",
                                           "fontFamily": "Inter",
-                                          "fontSize": 9
+                                          "fontSize": 9,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -52683,7 +52703,8 @@
                                           "fill": "#969AAA",
                                           "content": "生成所需积分",
                                           "fontFamily": "Inter",
-                                          "fontSize": 10
+                                          "fontSize": 10,
+                                          "fontWeight": "normal"
                                         },
                                         {
                                           "type": "text",
@@ -52691,7 +52712,8 @@
                                           "fill": "#F07A9B",
                                           "content": "必填",
                                           "fontFamily": "Inter",
-                                          "fontSize": 9
+                                          "fontSize": 9,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -52735,7 +52757,8 @@
                                       "fill": "#969AAA",
                                       "content": "所属首页类目（可多选）",
                                       "fontFamily": "Inter",
-                                      "fontSize": 10
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "text",
@@ -52743,7 +52766,8 @@
                                       "fill": "#666B7A",
                                       "content": "影响客户端首页曝光位置",
                                       "fontFamily": "Inter",
-                                      "fontSize": 9
+                                      "fontSize": 9,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -52766,7 +52790,8 @@
                                       "fill": "#9B7BFF",
                                       "content": "精选 Banner",
                                       "fontFamily": "Inter",
-                                      "fontSize": 10
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "text",
@@ -52799,7 +52824,8 @@
                                       "fill": "#9B7BFF",
                                       "content": "Hot",
                                       "fontFamily": "Inter",
-                                      "fontSize": 10
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "text",
@@ -52832,7 +52858,8 @@
                                       "fill": "#9B7BFF",
                                       "content": "Romance",
                                       "fontFamily": "Inter",
-                                      "fontSize": 10
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "text",
@@ -52864,7 +52891,8 @@
                                       "fill": "#59CBE8",
                                       "content": "+ 添加类目",
                                       "fontFamily": "Inter",
-                                      "fontSize": 10
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
